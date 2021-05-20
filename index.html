@@ -3,93 +3,96 @@
 
 <div class="container-fluid vh-100">
 
-    <div class="row hash h-10">
-        <div class="col-12 m-auto text-center">
+    <div class="row hash h-10 justify-content-end">   
+        <div class="col-9 mt-auto text-center">
             <span class="d-block text-center">Resposta</span>
-            <span class=" epi-1 epi-hash-1 collapse">1</span>
-            <span class=" epi-2 epi-hash-2 collapse">2</span>
-            <span class=" epi-3 epi-hash-3 collapse">3</span>
-            <span class=" epi-4 epi-hash-4 collapse">4</span>
-            <span class=" epi-5 epi-hash-5 collapse">5</span>
-            <span class=" epi-6 epi-hash-6 collapse">6</span>
-            <span class=" epi-7 epi-hash-7 collapse">7</span>
-            <span class=" epi-8 epi-hash-8 collapse">8</span>
-            <span class=" epi-9 epi-hash-9 collapse">9</span>
-            <span class=" epi-0 epi-hash-0 collapse">0</span>
-        </div>
+            <span class="epi epi-hash">-</span>
+            <span class="epi-1 epi-hash collapse">1</span>
+            <span class="epi-2 epi-hash collapse">2</span>
+            <span class="epi-3 epi-hash collapse">3</span>
+            <span class="epi-4 epi-hash collapse">4</span>
+            <span class="epi-5 epi-hash collapse">5</span>
+            <span class="epi-6 epi-hash collapse">6</span>
+            <span class="epi-7 epi-hash collapse">7</span>
+            <span class="epi-8 epi-hash collapse">8</span>
+            <span class="epi-9 epi-hash collapse">9</span>
+            <span class="epi-0 epi-hash collapse">0</span>
+        </div>    
     </div>
-
+         
     <div class="row mt-4 h-90">
 
         <div class="lista-epis col-3">
-    
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-1" data-bs-toggle="collapse" data-bs-target=".epi-1" type="checkbox" id="epi-1" name="epi-1">
-                <label class="form-check-label" for="epi-1">Epi 1</label>
+        
+            <div class="form-check epi-wrap">      
+                <input class="form-check-input chck-epi-1" name="radioForm" value="epi-1" type="radio" id="epi-1">
+                <label class="form-check-label" for="epi-1">Epi 1</label>    
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-2" data-bs-toggle="collapse" data-bs-target=".epi-2" type="checkbox" id="epi-2" name="epi-2">
-                <label class="form-check-label" for="epi-2">Epi 2</label>
+            <div class="form-check epi-wrap">    
+                <input class="form-check-input chck-epi-2" name="radioForm" value="epi-2" type="radio" id="epi-2">
+                <label class="form-check-label" for="epi-2">Epi 2</label>   
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-3" data-bs-toggle="collapse" data-bs-target=".epi-3" type="checkbox" id="epi-3" name="epi-3">
-                <label class="form-check-label" for="epi-3">Epi 3</label>            
+            <div class="form-check epi-wrap">     
+                <input class="form-check-input chck-epi-3" name="radioForm" value="epi-3" type="radio" id="epi-3">
+                <label class="form-check-label" for="epi-3">Epi 3</label> 
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-4" data-bs-toggle="collapse" data-bs-target=".epi-4" type="checkbox" id="epi-4" name="epi-4">
+            <div class="form-check epi-wrap">       
+                <input class="form-check-input chck-epi-4" name="radioForm" value="epi-4" type="radio" id="epi-4">
                 <label class="form-check-label" for="epi-4">Epi 4</label>
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-5" data-bs-toggle="collapse" data-bs-target=".epi-5" type="checkbox" id="epi-5" name="epi-5">
-                <label class="form-check-label" for="epi-5">Epi 5</label>
-            </div>
-            
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-6" data-bs-toggle="collapse" data-bs-target=".epi-6" type="checkbox" id="epi-6" name="epi-6">
-                <label class="form-check-label" for="epi-6">Epi 6</label>
+            <div class="form-check epi-wrap">     
+                <input class="form-check-input chck-epi-5" name="radioForm" value="epi-5" type="radio" id="epi-5">
+                <label class="form-check-label" for="epi-5">Epi 5</label>  
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-7" data-bs-toggle="collapse" data-bs-target=".epi-7" type="checkbox" id="epi-7" name="epi-7">
+            <div class="form-check epi-wrap"> 
+                <input class="form-check-input chck-epi-6" name="radioForm" value="epi-6" type="radio" id="epi-6">
+                <label class="form-check-label" for="epi-6">Epi 6</label>    
+            </div>
+
+            <div class="form-check epi-wrap">        
+                <input class="form-check-input chck-epi-7" name="radioForm" value="epi-7" type="radio" id="epi-7">
                 <label class="form-check-label" for="epi-7">Epi 7</label>
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-8" data-bs-toggle="collapse" data-bs-target=".epi-8" type="checkbox" id="epi-8" name="epi-8">
-                <label class="form-check-label" for="epi-8">Epi 8</label>
+            <div class="form-check epi-wrap">    
+                <input class="form-check-input chck-epi-8" name="radioForm" value="epi-8" type="radio" id="epi-8">
+                <label class="form-check-label" for="epi-8">Epi 8</label>    
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-9" data-bs-toggle="collapse" data-bs-target=".epi-9" type="checkbox" id="epi-9" name="epi-9">
-                <label class="form-check-label" for="epi-9">Epi 9</label>
+            <div class="form-check epi-wrap">        
+                <input class="form-check-input chck-epi-9" name="radioForm" value="epi-9" type="radio" id="epi-9">
+                <label class="form-check-label" for="epi-9">Epi 9</label>   
             </div>
 
-            <div class="epi-wrap">
-                <input class="form-check-input chck-epi-0" data-bs-toggle="collapse" data-bs-target=".epi-0"type="checkbox" id="epi-0" name="epi-0">
-                <label class="form-check-label" for="epi-0">Epi 0</label>
+            <div class="form-check epi-wrap">         
+                <input class="form-check-input chck-epi-0" name="radioForm" value="epi-0" type="radio" id="epi-0">
+                <label class="form-check-label" for="epi-0">Epi 0</label>      
             </div>
-            
+
         </div>
 
         <div class="tags-epis col-9">
-            <div class="epi-1 tag-epi tag-epi-1 collapse"></div>
-            <div class="epi-2 tag-epi tag-epi-2 collapse"></div>
-            <div class="epi-3 tag-epi tag-epi-3 collapse"></div>
-            <div class="epi-4 tag-epi tag-epi-4 collapse"></div>
-            <div class="epi-5 tag-epi tag-epi-5 collapse"></div>
-            <div class="epi-6 tag-epi tag-epi-6 collapse"></div>
-            <div class="epi-7 tag-epi tag-epi-7 collapse"></div>
-            <div class="epi-8 tag-epi tag-epi-8 collapse"></div>
-            <div class="epi-9 tag-epi tag-epi-9 collapse"></div>
-            <div class="epi-0 tag-epi tag-epi-0 collapse"></div>
+            <div class="epi-1 tag-epi tag-epi-1 m-auto"></div>
+            <div class="epi-2 tag-epi tag-epi-2 m-auto"></div>
+            <div class="epi-3 tag-epi tag-epi-3 m-auto"></div>
+            <div class="epi-4 tag-epi tag-epi-4 m-auto"></div>
+            <div class="epi-5 tag-epi tag-epi-5 m-auto"></div>
+            <div class="epi-6 tag-epi tag-epi-6 m-auto"></div>
+            <div class="epi-7 tag-epi tag-epi-7 m-auto"></div>
+            <div class="epi-8 tag-epi tag-epi-8 m-auto"></div>
+            <div class="epi-9 tag-epi tag-epi-9 m-auto"></div>
+            <div class="epi-0 tag-epi tag-epi-0 m-auto"></div>
         </div>
 
     </div>
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="js/jq.js"></script>
