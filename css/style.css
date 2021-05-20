@@ -24,7 +24,7 @@
     background-size: 226px 226px;
     background-position: center;
     background-repeat: no-repeat;
-    display: inline-block;
+    display: none;
     background-image: url(../imgs/1.png);
 }
 
@@ -57,10 +57,6 @@
 }
 .tag-epi-0 {
     background-image: url("../imgs/10.png");
-}
-
-.epi-1 {
-
 }
 
 label {
